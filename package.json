@@ -1,0 +1,39 @@
+{
+  "name": "codelab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "All-in-one static Computer Networks lab compiler simulator built with React.",
+  "homepage": "https://sathveekarank.github.io/codelab/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SathveekaranK/codelab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SathveekaranK/codelab/issues"
+  },
+  "keywords": [
+    "computer-networks",
+    "lab",
+    "compiler-simulator",
+    "react",
+    "static-site",
+    "catalyst"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "standalone": "vite build && node -e \"import('fs').then(fs => fs.copyFileSync('dist/index.html','standalone.html'))\"",
+    "build:catalyst": "vite build && node -e \"import('fs').then(fs => { fs.mkdirSync('client', { recursive: true }); fs.copyFileSync('dist/index.html', 'client/index.html'); })\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}
