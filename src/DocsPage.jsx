@@ -41,7 +41,7 @@ export default function DocsPage({ onOpenCompiler }) {
           <ul>
             <li>10 complete Python programs for the Deep Learning Lab experiments.</li>
             <li>Aim, step-by-step algorithm and recorded output for every program.</li>
-            <li>Full numpy implementations, from a single neuron to a healthcare case study.</li>
+            <li>Full Keras implementations, from a single neuron to a healthcare case study.</li>
             <li>Editable code with line numbers and syntax highlighting.</li>
             <li>Dark and light themes, adjustable editor font size.</li>
             <li>Download any program as its original source file.</li>

@@ -5,7 +5,7 @@ An offline React workspace with the programs from the updated lab manual: 10 com
 Two interfaces share the same programs:
 
 - **Compiler view** — a Programiz-style online compiler: dark editor, file tab, Visualize / Run toolbar and an output pane.
-- **Notebook view** — a Google Colab-style notebook: menu bar, left tool rail, outline sidebar and Markdown, code and output cells. Always light-themed. The notebook starts with `!pip install numpy -q` before the imports.
+- **Notebook view** — a Google Colab-style notebook: menu bar, left tool rail, outline sidebar and Markdown, code and output cells. Always light-themed. The notebook starts with `!pip install tensorflow matplotlib -q` before the imports.
 
 ## Features
 

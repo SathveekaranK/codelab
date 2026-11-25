@@ -286,8 +286,8 @@ function ColabSkin({ state }) {
   } = state;
   const [sideTab, setSideTab] = useState('toc');
 
-  const installCmd = '!pip install numpy -q';
-  const installOutput = 'Requirement already satisfied: numpy in /usr/local/lib/python3.11/dist-packages (1.26.4)';
+  const installCmd = '!pip install tensorflow matplotlib -q';
+  const installOutput = 'Requirement already satisfied: tensorflow in /usr/local/lib/python3.11/dist-packages (2.21.0)';
 
   return (
     <div className="cl">
