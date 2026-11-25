@@ -2,7 +2,9 @@ const KEYWORDS = new Set(`public private protected class interface extends imple
   int boolean byte char long short float double new return if else for while do break continue
   try catch finally throw throws this super switch case default package import true false null
   instanceof synchronized enum struct namespace using inline const delete template typename
-  set proc global foreach expr incr puts exit exec source eval elseif then`.split(/\s+/));
+  set proc global foreach expr incr puts exit exec source eval elseif then
+  def print import from as lambda not and or in is pass yield with True False None
+  elif raise assert del nonlocal`.split(/\s+/));
 
 const TYPES = new Set(`String System BufferedReader InputStreamReader DataInputStream
   DataOutputStream PrintStream Socket ServerSocket DatagramSocket DatagramPacket InetAddress

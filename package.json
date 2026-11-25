@@ -1,24 +1,15 @@
 {
-  "name": "codelab",
-  "version": "1.0.0",
+  "name": "programming-lab-compiler",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "All-in-one static Computer Networks lab compiler simulator built with React.",
-  "homepage": "https://sathveekarank.github.io/codelab/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SathveekaranK/codelab.git"
-  },
-  "bugs": {
-    "url": "https://github.com/SathveekaranK/codelab/issues"
-  },
+  "description": "Static programming lab compiler with Programiz-style and Google Colab-style views.",
   "keywords": [
-    "computer-networks",
-    "lab",
-    "compiler-simulator",
+    "lab-manual",
+    "python",
+    "lab-compiler",
     "react",
-    "static-site",
-    "catalyst"
+    "static-site"
   ],
   "scripts": {
     "dev": "vite",

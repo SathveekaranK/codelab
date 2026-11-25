@@ -1,6 +1,6 @@
 {
-  "name": "codelab",
-  "version": "1.0.0",
+  "name": "programming-lab-compiler",
+  "version": "2.0.0",
   "homepage": "index.html",
-  "description": "All-in-one static Computer Networks lab compiler simulator built with React."
+  "description": "Offline programming lab compiler with Programiz-style and Google Colab-style views."
 }
