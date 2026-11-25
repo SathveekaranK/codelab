@@ -1,6 +1,6 @@
 # Python Lab Compiler
 
-An offline React workspace with the programs from the updated lab manual: 10 short Python programs for the Deep Learning Lab (U23AL511). Each program carries its aim, algorithm, source code and expected output.
+An offline React workspace with the programs from the updated lab manual: 10 complete Python programs for the Deep Learning Lab (U23AL511). Each program carries its aim, a step-by-step algorithm, full source code and the recorded output.
 
 Two interfaces share the same programs:
 
@@ -9,7 +9,8 @@ Two interfaces share the same programs:
 
 ## Features
 
-- 10 compact Python programs with aims, algorithms and outputs.
+- 10 complete Python programs with aims, step-by-step algorithms and outputs.
+- Working implementations: perceptron, ANN forward pass, MLP training, evaluation metrics, generative text and a healthcare case study.
 - Editable code with line numbers and syntax highlighting.
 - Programiz-style compiler with Output / Input / Algorithm panels.
 - Google Colab-style notebook with an install cell ahead of the code.

@@ -10,9 +10,9 @@ export default function DocsPage({ onOpenCompiler }) {
         <header className="docs-hero">
           <h1>Python Lab Compiler</h1>
           <p>
-            A self-contained practice workspace built from the updated lab manual: short,
-            clean programs with their aims, algorithms and expected output — available in
-            two familiar interfaces.
+            A self-contained practice workspace built from the updated lab manual: complete
+            programs with their aims, step-by-step algorithms and recorded output — available
+            in two familiar interfaces.
           </p>
           <div className="docs-chip-row">
             <span className="docs-chip">10 programs</span>
@@ -39,8 +39,9 @@ export default function DocsPage({ onOpenCompiler }) {
         <section className="docs-section">
           <h2>What is included</h2>
           <ul>
-            <li>10 short Python programs for the Deep Learning Lab experiments.</li>
-            <li>Aim, algorithm and expected output for every program.</li>
+            <li>10 complete Python programs for the Deep Learning Lab experiments.</li>
+            <li>Aim, step-by-step algorithm and recorded output for every program.</li>
+            <li>Full numpy implementations, from a single neuron to a healthcare case study.</li>
             <li>Editable code with line numbers and syntax highlighting.</li>
             <li>Dark and light themes, adjustable editor font size.</li>
             <li>Download any program as its original source file.</li>
